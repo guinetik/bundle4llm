@@ -1,0 +1,38 @@
+{
+    "name": "bundle4llm",
+    "version": "0.0.1",
+    "description": "Create comprehensive, single-file JavaScript bundles optimized for LLMs without external dependencies or imports",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+      "bundle4llm": "./index.js"
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/guinetik/bundle4llm.git"
+    },
+    "keywords": [
+      "llm",
+      "ai",
+      "bundle",
+      "javascript",
+      "code",
+      "tokens",
+      "claude",
+      "gpt",
+      "anthropic",
+      "openai"
+    ],
+    "author": "guinetik",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/guinetik/bundle4llm/issues"
+    },
+    "homepage": "https://github.com/guinetik/bundle4llm#readme",
+    "engines": {
+      "node": ">=14.16.0"
+    }
+  }
